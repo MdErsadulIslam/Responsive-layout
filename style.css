@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 70vh;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid gray;
+    padding: 10px;
+    max-width: 1350px;
+    margin: 10px auto;
+}
+.btn{
+    background-color: blue;
+    color: aliceblue;
+}
+@media screen and (max-width:576px) {
+.card{
+    display: block;   
+}
+img{
+    width: 100vw;
+}
+}
